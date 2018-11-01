@@ -4,3 +4,40 @@
     text-align: center;
     display: inline-block;
 }
+body{
+    background-color: #ffefd5
+}
+.main-container{
+    border: 1px solid bisque;
+    box-shadow: 1px 1px 1px;
+    margin: 20px 30px;
+}
+.container-logo{
+    display: inline-block;
+}
+.main-text-container{
+    display: flex inline-block;
+    flex-direction:row;
+    justify-content: center;
+}
+.logo{
+    display: inline-block;
+}
+.header-text{
+    text-align: center;
+    border:5px dashed purple;
+    border-radius: 15%;
+    display: inline-block;
+}
+.PC-selecter{
+    height: 200px;
+    width: 200px;
+    border: purple 5px dashed;
+    border-radius: 100%
+}
+.selecters-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
