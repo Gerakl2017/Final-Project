@@ -1,0 +1,13 @@
+body{
+    background:url(images/backgroundgradient.jpg);
+}
+main header{
+    border: 1px solid bisque;
+    box-shadow: 1px 1px 1px;
+    margin: 20px 30px;
+    background-color: bisque;
+}
+.main-header{
+    padding: 20px;
+    display: flex;
+}

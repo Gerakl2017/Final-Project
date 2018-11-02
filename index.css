@@ -4,30 +4,57 @@
     text-align: center;
     display: inline-block;
 }
+div{
+    font-family: 'Josefin Sans', sans-serif;
+}
 body{
-    background-color: #ffefd5
+    background:url(images/backgroundgradient.jpg);
 }
 .main-container{
     border: 1px solid bisque;
     box-shadow: 1px 1px 1px;
     margin: 20px 30px;
+    background-color: bisque;
+}
+.main-header{
+    padding: 20px;
+    display: flex;
 }
 .container-logo{
     display: inline-block;
 }
 .main-text-container{
-    display: flex inline-block;
-    flex-direction:row;
     justify-content: center;
+    display: inline-block;
+    align-items: center;
 }
 .logo{
+    height: 260px;
+    width: 260px;
     display: inline-block;
 }
-.header-text{
+.maintext-logo{
+    height: 260px;
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.header-text{
+    height: 260px;
+    width: 950px;
+}*/
+.main-introduction{
+    padding: 10px;
+}
+.introduction-headline{
     text-align: center;
-    border:5px dashed purple;
-    border-radius: 15%;
-    display: inline-block;
+}
+.introduction-text{
+    text-align: center;
+    padding: 10px;
+    border: 5px purple solid;
+    margin: 60px;
 }
 .PC-selecter{
     height: 200px;
@@ -35,9 +62,10 @@ body{
     border: purple 5px dashed;
     border-radius: 100%
 }
-.selecters-container{
+.selecters-container1{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+    padding: 17px;
 }
 
