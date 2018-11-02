@@ -1,13 +1,22 @@
 body{
-    background:url(images/backgroundgradient.jpg);
+    background: url(images/backgroundgradient.jpg);
 }
-main header{
-    border: 1px solid bisque;
+div{
+    font-family: 'PT Mono', monospace;
+}
+header{
+    border: 1px solid burlywood;
     box-shadow: 1px 1px 1px;
     margin: 20px 30px;
-    background-color: bisque;
+    background-color: burlywood;
 }
 .main-header{
     padding: 20px;
     display: flex;
+}
+.PC-header-img{
+    height: 300px;
+    width: 300px;
+    border:5px purple solid;
+    padding: 20px
 }
