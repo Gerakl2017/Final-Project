@@ -11,7 +11,7 @@ h1{
     font-family: 'PT Mono', monospace;
 }
 body{
-    background:url(images/backgroundgradient.jpg);
+    background: linear-gradient(to top right, rgb(102, 0, 102), rgb(137, 41, 228));
 }
 .main-container{
     border: 1px solid bisque;
@@ -71,5 +71,25 @@ body{
     flex-direction:row;
     justify-content: space-between;
     padding: 17px;
+}
+.footer-img{
+    width: 210px;
+    height: 80px;
+    margin: 20px;
+}
+.footer-vk{
+    position: absolute;
+    display: inline-block;
+    right: 45px;
+    left: auto;
+    bottom: -240px;
+    top: auto;
+}
+.footer-text{
+   text-align: right;
+   display: inline-block;
+   position: absolute;
+   right: 45px;
+   left: auto;
 }
 
