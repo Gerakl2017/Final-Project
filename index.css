@@ -15,7 +15,7 @@ body{
 }
 .main-container{
     border: 1px solid bisque;
-    box-shadow: 1px 1px 1px;
+    box-shadow: 5px 5px 3px;
     margin: 20px 30px;
     background-color: bisque;
 }
@@ -78,7 +78,6 @@ body{
     margin: 20px;
 }
 .footer-vk{
-    position: absolute;
     display: inline-block;
     right: 45px;
     left: auto;
