@@ -11,13 +11,13 @@ h1{
     font-family: 'PT Mono', monospace;
 }
 body{
-    background: linear-gradient(to top right, rgb(102, 0, 102), rgb(137, 41, 228));
+    background: linear-gradient(to top, rgb(75, 0, 75), rgb(137, 41, 228));
 }
 .main-container{
-    border: 1px solid bisque;
+    border: 1px solid burlywood;
     box-shadow: 5px 5px 3px;
     margin: 20px 30px;
-    background-color: bisque;
+    background-color: burlywood;
 }
 .main-header{
     padding: 20px;
@@ -79,10 +79,8 @@ body{
 }
 .footer-vk{
     display: inline-block;
-    right: 45px;
-    left: auto;
-    bottom: -240px;
-    top: auto;
+    padding: 5px;
+    margin: 0 auto 0 80%;
 }
 .footer-text{
    text-align: right;
