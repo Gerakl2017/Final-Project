@@ -63,29 +63,43 @@ body{
 .PC-selecter{
     height: 200px;
     width: 200px;
-    border: purple 5px dashed;
+    border: purple 5px solid;
     border-radius: 100%
 }
 .selecters-container1{
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 17px;
+}
+.second{
+    padding: 17px 90px;
+}
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .footer-img{
     width: 210px;
     height: 80px;
     margin: 20px;
 }
+.footright{
+    display: flex;
+    align-content: flex-end;
+    justify-content: right;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 2%;
+}
 .footer-vk{
-    display: inline-block;
     padding: 5px;
-    margin: 0 auto 0 80%;
+    height: 48px;
+    width: 48px;
 }
 .footer-text{
    text-align: right;
-   display: inline-block;
-   position: absolute;
    right: 45px;
    left: auto;
 }
